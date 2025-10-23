@@ -1,0 +1,8 @@
+:root { --max: 860px; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; line-height: 1.6; }
+.container { max-width: var(--max); margin: 0 auto; padding: 1.25rem; }
+header { border-bottom: 1px solid #eee; }
+nav a { margin-right: 1rem; text-decoration: none; }
+h1, h2 { line-height: 1.2; }
+@media (max-width: 600px) { nav a { display:block; margin: 0.5rem 0; } }
